@@ -42,8 +42,7 @@ app.get('/maruja/praias', (req, res) => {
 */
 
 app.get('/' + ':comunity' + '/' + ':name', function(req, res){
-    var name = req.params.name;
-    var comunity = req.params.comunity;
+    var {name, comunity} = req.params;
     res.render(`${name}`, {url : `/${comunity}`, data: data["comunidades"][`${comunity}`][`${name}`]})
 });
 
