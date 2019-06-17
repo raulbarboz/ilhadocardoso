@@ -82,6 +82,82 @@
                     "descricao" : "É um bichinho bonito e verdinho que dá na água. São plânctons bioluminescentes presentes apenas em locais sem poluição e com pouca luz artificial. Em toda ilha é possível visualizá-los, basta mexer na água ou na areia molhada para ver esse show psicodélico natural.",
                     "guia": true
                 }
+            ],
+            "campings": [
+                {
+                    "titulo": "Camping Aroldo Neves",
+                    "descricao": "pedir descrição para o próprio dono?",
+                    "capacidade": "YY barracas",
+                    "contato": "(13) 3852-1161 / (13) 982042921"
+                },
+                {
+                    "titulo": "Camping Ademir das Neves",
+                    "descricao": "pedir descrição para o próprio dono?",
+                    "capacidade": "YY barracas",
+                    "contato": "(13) 3852-1161 / (13) 982042921"
+                }
+            ],
+            "pousadas": [
+                {
+                    "titulo": "Pousada do Aroldo Xavier",
+                    "descricao": "Descricao da pousada",
+                    "contato": "(13) 38513486 / (13) 982042921"
+                },
+                {
+                    "titulo": "Pousada do Amilton Xavier",
+                    "descricao": "Descricao da pousada",
+                    "contato": "(13) 38521200 / (13) 981641326"
+                }
+            ],
+            "casas_aluguel": [
+                {
+                    "titulo": "Casa do Anderson Rodrigues",
+                    "descricao": "Descricao da casa",
+                    "contato": "(13) 38521210 / (13) 997213906"
+                },
+                {
+                    "titulo": "Casa do Ade / Marly Xavier",
+                    "descricao": "Descricao da casa",
+                    "contato": "(13) 38521161 / (13) 981251432"
+                }
+            ],
+            "restaurantes": [
+                {
+                    "titulo": "Lanchonete Dona Tereza",
+                    "descricao": "Descricao do restaurante",
+                    "contato": "(13) 38521210 / (13) 997213906"
+                },
+                {
+                    "titulo": "Restaurante da Valdete",
+                    "descricao": "Descricao do restaurante",
+                    "contato": "(13) 38521161 / (13) 981251432"
+                }
+            ],
+            "cultura": [
+                {
+                    "titulo": "Banda no Bar do Beto",
+                    "descricao": "Descricao do restaurante",
+                    "contato": "(13) 38521210 / (13) 997213906",
+                    "data": "12/5 19hrs"
+                },
+                {
+                    "titulo": "Banda no Bar do Rodrigo",
+                    "descricao": "Descricao do restaurante",
+                    "contato": "(13) 38521161 / (13) 981251432",
+                    "data": "12/5 19hrs"
+                }
+            ],
+            "como_chegar": [
+                {
+                    "titulo": "Por Cananeia",
+                    "descricao": "Cananéia fica a 272 km de São Paulo e a 87 km da Ilha Comprida. Boa parte do trajeto é feito pela Rodovia Régis Bittencourt (BR-116). Passando por Registro, pegue a saída 464 para a SP-226, com indicação para Pariquera Açu, Iguape e Cananéia. Siga pela estrada por 27 km até a entrada da Estrada Prefeito José Herculano de Oliveira Rosa na rotatória e por ela até Cananéia. O acesso para Cananéia é feito por uma ponte, ao norte da ilha, ou por uma balsa, ao sul. Para se chegar a Comunidade do Marujá é preciso adentrar os canais que separam a Ilha do Cardoso do continente. A viagem é sempre muito bonita, repleta de natureza exuberante em flora e fauna, cheia de surpresas como a aparição de botos e revoadas de pássaros.O trajeto possui aproximadamente xx km e pode ser percorrido de três maneiras: de lancha rápida (“voadera”), de escuna ou com a balsa de moradores.As viagens de lancha oferecidas no calçadão da Avenida Beira Mar próxima ao píer (vide localização), comportam xx pessoas e levam xx minutos.As viagens de escuna possuem horário marcado para saída, comportam xx pessoas e levam xx horas. São tomadas no próprio pier.A balsa de moradores só sai nas xx-feiras e xx-feiras às xx horas e regressam às xx horas. Para maiores informações falar com a Dersa.",
+                    "mapa-url": "http://url-map-cananeia"
+                },
+                {
+                    "titulo": "Por Ariri",
+                    "descricao": "Na rotatória deve se seguir na SP-226, com indicação para Ariri. Depois de xx chega-se ao bairro de Itapitingui de onde se atravessa todo o Parque Estadual Lagamar para chegar ao bairro do Ariri.Do Ariri toma-se uma lancha particular (colocar número do Gilberto?) que percorre xx km e leva 15 minutos.",
+                    "mapa-url": "http://url-map-ariri"
+                }
             ]
         }   
     }
