@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    text-decoration:none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Navbar */
+nav.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    font-family: 'Viga', sans-serif;
+    background:#96ceb4;
+    border-bottom:5px solid #588c7e;
+}
+
+.menu > ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right:20px;
+}
+
+.menu > ul > li {
+    margin:5px;
+    padding:5px;
+}
+
+.menu > ul > li > a {
+    color: white;
+}
+
+.menu > ul > li > a:hover {
+    border-bottom: 2px solid white;
+}
+
+
+.brand{
+    margin:20px;
+    border:6px solid #ff6f69;
+    padding:20px 0px 20px 10px;
+    text-align:center;
+}
+
+.brand > p{
+    margin: 2px 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.pin-solid.icon {
+    color: #ff6f69;
+    position: absolute;
+    margin-left: 4px;
+    margin-top: 2px;
+    width: 12px;
+    height: 12px;
+    border: solid 1px currentColor;
+    border-radius: 7px 7px 7px 0;
+    background-color: currentColor;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  
+  .pin-solid.icon:before {
+    content: '';
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    width: 4px;
+    height: 4px;
+    color: white;
+    border: solid 1px currentColor;
+    border-radius: 3px;
+    background-color: currentColor;
+  }
+  
+  /* Section box-imgs*/
+
+  .box-imgs{
+      position: relative;
+  }
+
+  .box-imgs > h3 {
+      position: absolute;
+      left:50%;
+      top:50%;
+      transform:translate(-50%, -50%);
+      font-family: 'Viga', sans-serif;
+      color:white;
+      width:400px;
+      font-size:50px;
+      background: #ffff006e;
+      padding:10px;
+  }
+
+  .box-imgs > h3 > span {
+    font-family: 'Viga', sans-serif;
+    color:#ff6f69;
+  }
+  .box-imgs > ul > li > img {
+    display: block;
+    width: 100vw;
+    max-height: 60vh;
+    object-fit: cover;
+  }
