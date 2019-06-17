@@ -33,11 +33,17 @@ app.get('/baleia', (req, res) => {
     res.render('comunidades', {url:url})
 })
 
-app.get('/maruja/praias', (req, res) => {
+/* app.get('/maruja/praias', (req, res) => {
     console.log(data["comunidades"]["maruja"]["praias"])
     
     res.render('praias', {url : '/maruja', data: data["comunidades"]["maruja"]["praias"]})
 })
+*/
+
+app.get('/maruja/' + ':name', function(req, res){
+    var name = req.params.name;
+    res.render(`${name}`, {url : `/${name}`, data: data["comunidades"]["maruja"][`${name}`]})
+});
 
 app.listen(port, hostname, () => {
     console.log(`App running on port ${port}`)
