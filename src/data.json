@@ -1,0 +1,66 @@
+{
+    "comunidades" : {
+        "maruja" : {
+            "praias": [
+                {
+                    "titulo" : "Praia do Maruja ou Praia do Meio - 500m",
+                    "descricao" : "Praia de facil acesso...",
+                    "guia" : false
+                },
+                {
+                    "titulo" : "Costao do Maruja - 8km",
+                    "descricao" : "O Passeio tem inicio...",
+                    "guia": true
+                }
+            ],
+            "cachoeiras": [
+                {
+                    "titulo" : "Cachoeira Grande - 500m",
+                    "descricao" : "Cachoeira de facil acesso...",
+                    "guia" : false
+                },
+                {
+                    "titulo" : "Costao do Maruja - 8km",
+                    "descricao" : "O Passeio tem inicio...",
+                    "guia": true
+                }
+            ],
+            "historicas": [
+                {
+                    "titulo" : "Igreja do Maruja - 500m",
+                    "descricao" : "Cachoeira de facil acesso...",
+                    "guia" : false
+                },
+                {
+                    "titulo" : "Costao do Maruja - 8km",
+                    "descricao" : "O Passeio tem inicio...",
+                    "guia": true
+                }
+            ],
+            "pesca_esportiva": [
+                {
+                    "titulo" : "Igreja do Maruja - 500m",
+                    "descricao" : "Cachoeira de facil acesso...",
+                    "guia" : false
+                },
+                {
+                    "titulo" : "Costao do Maruja - 8km",
+                    "descricao" : "O Passeio tem inicio...",
+                    "guia": true
+                }
+            ],
+            "noturnas": [
+                {
+                    "titulo" : "Igreja do Maruja - 500m",
+                    "descricao" : "Cachoeira de facil acesso...",
+                    "guia" : false
+                },
+                {
+                    "titulo" : "Costao do Maruja - 8km",
+                    "descricao" : "O Passeio tem inicio...",
+                    "guia": true
+                }
+            ]
+        }   
+    }
+}

@@ -1,5 +1,8 @@
 <%- include partials/head.ejs %>
 <%- include partials/navbar.ejs %>
-<%- include partials/content.ejs %>
+<% locals.data.forEach((praia) => { %>
+    <%- include('partials/content.ejs', {praia:praia}) %>
+<% }) %>
+
 </body>
 </html>
