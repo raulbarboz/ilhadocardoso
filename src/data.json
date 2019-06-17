@@ -3,61 +3,83 @@
         "maruja" : {
             "praias": [
                 {
-                    "titulo" : "Praia do Maruja ou Praia do Meio - 500m",
-                    "descricao" : "Praia de facil acesso...",
+                    "titulo" : "Praia do Marujá ou Praia do Meio",
+                    "distancia": "500m",
+                    "descricao" : "Praia de fácil acesso por trilha de aprox. 500 m a partir da comunidade, possui longa extensão e é possível desfrutar da natureza em sua plenitude. Ótima para práticas esportivas como corrida, natação em àguas abertas, surfe, futebol de areia, frescobol. Além da vantagem de não haver carros e poluição, perfeita para crianças brincarem na areia.",
                     "guia" : false
                 },
                 {
-                    "titulo" : "Costao do Maruja - 8km",
-                    "descricao" : "O Passeio tem inicio...",
+                    "titulo" : "Costão do Marujá",
+                    "distancia": "8km",
+                    "descricao" : "O passeio tem início na Comunidade do Marujá tendo como primeiro percurso a Praia do Marujá. A trilha do costão se inicia em meio às rochas, sendo observado o costão rochoso marinho. O ambiente é propício para observação da vida marinha e da restinga ao longo da praia. Seus pontos altos servem como mirantes das praias do Marujá e da Laje.",
                     "guia": true
+                },
+                {
+                    "titulo" : "Comunidade do Cambriú",
+                    "distancia": "26km",
+                    "descricao" : "Caminhando desde a comunidade do Marujá, realiza-se um percurso que leva ao extremo da Praia da Laje, sendo este um ótimo ponto para contemplação da paisagem marítima. A caminhada termina com uma descida para as praias de Foles, Fole Pequeno e Cambriú.",
+                    "guia": false
                 }
             ],
             "cachoeiras": [
                 {
-                    "titulo" : "Cachoeira Grande - 500m",
-                    "descricao" : "Cachoeira de facil acesso...",
-                    "guia" : false
+                    "titulo" : "Piscinas da Laje",
+                    "distancia": "25km",
+                    "descricao" : "Caminhada a partir da comunidade do Marujá até o fim da Praia da Laje onde inicia a trilha, numa área de transição de restinga para a mata de encosta. Na trilha, uma grande variedade da flora e presença de riachos e rios que formam piscinas naturais. Observar antes as condições de tempo.",
+                    "guia" : true
                 },
                 {
-                    "titulo" : "Costao do Maruja - 8km",
-                    "descricao" : "O Passeio tem inicio...",
+                    "titulo" : "Cachoeira Grande",
+                    "descricao" : "Passeio de barco com duração de aproximadamente 30 minutos pelo Canal do Ararapira, chegando à trilha de 800 metros que leva à Cachoeira Grande. No caminho há ruínas de uma antiga serraria que funcionou até a década de 50.",
                     "guia": true
                 }
             ],
             "historicas": [
                 {
-                    "titulo" : "Igreja do Maruja - 500m",
-                    "descricao" : "Cachoeira de facil acesso...",
+                    "titulo" : "Igrejinha do Marujá",
+                    "descricao" : "Simpática igreja da Comunidade do Marujá atrai por sua simplicidade e demonstra toda a fé da comunidade.",
                     "guia" : false
                 },
                 {
-                    "titulo" : "Costao do Maruja - 8km",
-                    "descricao" : "O Passeio tem inicio...",
-                    "guia": true
+                    "titulo" : "Barra do Ararapira - ‘a cidade fantasma’",
+                    "descricao" : "Um dos primeiros bairros do Brasil colonial, um importante entrepostos comercial que mais tarde se tornaria o cemiterio da região.Local possui uma igreja datada de xxx com varias informações de alta relavância histórica.",
+                    "guia": false
+                },
+                {
+                    "titulo" : "Sambaquis",
+                    "descricao" : "São sítios arqueológicos formados por conchas que segundo historiadores são resíduos da alimentação de uma antiga civilização pré-cambriana.",
+                    "guia": false
                 }
             ],
             "pesca_esportiva": [
                 {
-                    "titulo" : "Igreja do Maruja - 500m",
-                    "descricao" : "Cachoeira de facil acesso...",
-                    "guia" : false
-                },
-                {
-                    "titulo" : "Costao do Maruja - 8km",
-                    "descricao" : "O Passeio tem inicio...",
-                    "guia": true
+                    "titulo" : "Pesca Esportiva",
+                    "descricao" : "Fotos, videos e links",
+                    "guia" : false,
+                    "material": [
+                        {"url_img": "http://url-to-img"},
+                        {"url_video": "http://url-to-video"}
+                    ]
                 }
             ],
             "noturnas": [
                 {
-                    "titulo" : "Igreja do Maruja - 500m",
-                    "descricao" : "Cachoeira de facil acesso...",
-                    "guia" : false
+                    "titulo" : "Música ao vivo",
+                    "descricao" : "A Comunidade do Marujá é também conhecida por noites badaladas com música ao vivo e muita diversão. O forró e a música brasileira ditam o ritmo que completam a natureza do local.  Funciona apenas nos feriados e datas comemorativas.",
+                    "guia" : false,
+                    "material": [
+                        {"url_img": "http://url-to-img"},
+                        {"url_video": "http://url-to-video"}
+                    ]
                 },
                 {
-                    "titulo" : "Costao do Maruja - 8km",
-                    "descricao" : "O Passeio tem inicio...",
+                    "titulo" : "Observação Celeste",
+                    "descricao" : "O fato de possuir iluminação pública nem automoveis possibilidade uma visibilidade do céu única e possível em poucos lugares nos dias de hoje. É possível avistar dezenas de estrelas cadentes em uma noite limpa.",
+                    "guia": true
+                },
+                {
+                    "titulo" : "Spyro Gyro",
+                    "descricao" : "É um bichinho bonito e verdinho que dá na água. São plânctons bioluminescentes presentes apenas em locais sem poluição e com pouca luz artificial. Em toda ilha é possível visualizá-los, basta mexer na água ou na areia molhada para ver esse show psicodélico natural.",
                     "guia": true
                 }
             ]
