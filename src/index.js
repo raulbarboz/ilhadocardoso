@@ -43,7 +43,7 @@ app.get('/maruja/praias', (req, res) => {
 
 app.get('/' + ':comunity' + '/' + ':name', function(req, res){
     var {name, comunity} = req.params;
-    res.render(`${name}`, {url : `/${comunity}`, data: data["comunidades"][`${comunity}`][`${name}`]})
+    res.render(`comunidades`, {url : `/${comunity}`, data: data["comunidades"][`${comunity}`][`${name}`]})
 });
 
 app.listen(port, hostname, () => {
