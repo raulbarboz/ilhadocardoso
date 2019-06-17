@@ -46,6 +46,6 @@ app.get('/' + ':comunity' + '/' + ':name', function(req, res){
     res.render(`comunidades`, {url : `/${comunity}`, data: data["comunidades"][`${comunity}`][`${name}`]})
 });
 
-app.listen(port, hostname, () => {
+app.listen(port, () => {
     console.log(`App running on port ${port}`)
 })

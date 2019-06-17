@@ -4,7 +4,8 @@
   "description": "Site com informações turisticas da IlhaDoCardoso",
   "main": "src/index",
   "scripts": {
-    "start": "nodemon"
+    "start": "node src/index.js",
+    "dev" : "nodemon"
   },
   "keywords": [
     "ilhadocardoso",
