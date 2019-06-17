@@ -71,6 +71,7 @@ nav.menu {
 
 .menu > ul > li {
     padding:10px;
+    position: relative;
 }
 
 .menu > ul > li > a {
@@ -83,9 +84,6 @@ nav.menu {
 }
 
 /* Submenu */
-.menu > ul > li{
-    position: relative;
-}
 
 .menu > ul > li > ul {
     position:absolute;
