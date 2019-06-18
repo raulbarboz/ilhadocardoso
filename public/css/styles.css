@@ -125,7 +125,7 @@ nav.menu {
 }
 
 .menu > ul > li:hover > ul > li:hover {
-    background:gray;
+    background: #96ceb4;
 }
 
 .brand{
@@ -225,11 +225,48 @@ nav.menu {
       margin: 0 10px;
   }
 
+  .sidebar h2{
+      background:#96ceb4;
+      padding:5px;
+  }
+
   /* queries */
   @media (max-width: 720px){
     .container{
         grid-template-columns: 1fr;
     }
+    /* Menu */
+    .brand{
+        margin:20px auto;
+        border: 6px solid #ff6f69;
+        padding: 20px 0px 20px 10px;
+        text-align: center;
+        width: 150px;
+    }
+    .menu > ul {
+        display:block;
+        margin:0;
+        padding:0;
+        margin-top:10px;
+        background: #e8e8e8;
+        border-top:8px solid #807f7f;
+    }
+    .menu > ul > li {
+        padding:20px 0;
+    }
+    .menu > ul > li > a {
+        margin-left:50px;
+    }
+    .menu > ul > li:hover{
+        border-left:8px solid #7dcdec
+    }
+    nav.menu{
+        display:flow-root;
+    }
+    .menu > ul > li > ul {
+        position:static;
+    }
+
   }
 
   @media (max-width: 521px){
