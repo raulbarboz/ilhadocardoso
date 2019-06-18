@@ -251,9 +251,10 @@ nav.menu {
         display:flex;
         flex-direction: column;
         align-content: space-between;
-        margin-top:95px;
         flex-wrap: nowrap;
-        height: 50vh;
+        max-width:300px;
+        height: 40vh;
+        margin:auto;
     }
     .menu > ul > li {
         text-align: center;
@@ -265,7 +266,9 @@ nav.menu {
         background: none;
     }
     nav.menu{
-        display:flow-root;
+        display:flex;
+        flex-flow: column;
+        height: 100vh;
     }
     .menu > ul > li > ul {
         position:static;
