@@ -218,9 +218,28 @@ nav.menu {
   }
 
   .content-img{
-    padding:10px 20px;
+    padding:10px 20px 10px 0;
   }
 
   .sidebar{
       margin: 0 10px;
+  }
+
+  /* queries */
+  @media (max-width: 720px){
+    .container{
+        grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 521px){
+    .content-img{
+        display: block;
+        width: 100%;
+        max-height: 20vh;
+        object-fit: cover;
+    }
+    .grid-content{
+        grid-template-columns: 1fr;
+    }
   }
