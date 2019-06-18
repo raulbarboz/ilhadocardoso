@@ -51,6 +51,9 @@ table {
 /* setup */
 h1,h2,h3,h4,h5,h6,a,p{
     margin:10px 0;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color:#3c3737f1;
 }
 
 h1{
@@ -141,14 +144,14 @@ nav.menu {
     text-transform: uppercase;
 }
 .pin-solid.icon {
-    color: #ff6f69;
+    color: tomato;
     position: absolute;
     margin-left: 4px;
     margin-top: 2px;
-    width: 13px;
-    height: 13px;
-    border: solid 5px currentColor;
-    border-radius: 11px 11px 11px 0;
+    width: 12px;
+    height: 12px;
+    border: solid 1px currentColor;
+    border-radius: 7px 7px 7px 0;
     background-color: currentColor;
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
@@ -158,14 +161,16 @@ nav.menu {
     content: '';
     position: absolute;
     left: 3px;
-    top: 2px;
-    width: 6px;
-    height: 6px;
+    top: 3px;
+    width: 4px;
+    height: 4px;
     color: white;
     border: solid 1px currentColor;
-    border-radius: 5px;
+    border-radius: 3px;
     background-color: currentColor;
   }
+  
+  
   
   /* Section box-imgs*/
 
@@ -295,6 +300,32 @@ nav.menu {
         width: 80%;
         font-size:30px;
     }
+    .pin-solid.icon {
+        color: #ff6f69;
+        position: absolute;
+        margin-left: 4px;
+        margin-top: 2px;
+        width: 13px;
+        height: 13px;
+        border: solid 5px currentColor;
+        border-radius: 11px 11px 11px 0;
+        background-color: currentColor;
+        -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+      }
+      
+      .pin-solid.icon:before {
+        content: '';
+        position: absolute;
+        left: 3px;
+        top: 2px;
+        width: 6px;
+        height: 6px;
+        color: white;
+        border: solid 1px currentColor;
+        border-radius: 5px;
+        background-color: currentColor;
+      }
   }
 
   @media (max-width: 521px){
