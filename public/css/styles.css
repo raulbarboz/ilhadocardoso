@@ -114,7 +114,7 @@ nav.menu {
 
 .menu > ul > li > ul > li > a {
     color:black;
-    font-family: arial;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
     padding: 8px;
     margin-left: 7px;
     display:block;
@@ -178,7 +178,7 @@ nav.menu {
       left:50%;
       top:50%;
       transform:translate(-50%, -50%);
-      font-family: 'Viga', sans-serif;
+      font-family: 'Encode Sans Semi Condensed', sans-serif;
       color:white;
       width:400px;
       font-size:50px;
@@ -187,7 +187,7 @@ nav.menu {
   }
 
   .box-imgs > h3 > span {
-    font-family: 'Viga', sans-serif;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
     color:#ff6f69;
   }
   .box-imgs > ul > li > img {
@@ -201,7 +201,7 @@ nav.menu {
   .container{
       max-width:960px;
       margin: 0 auto;
-      font-family: 'Saira Semi Condensed', sans-serif;
+      font-family: 'Encode Sans Semi Condensed', sans-serif;
       text-align: justify;
       display: grid;
       grid-template-columns: 5fr 2fr;
@@ -218,7 +218,7 @@ nav.menu {
   }
 
   .content-img{
-    padding:10px 20px 10px 0;
+    padding:10px 0 10px 0;
   }
 
   .sidebar{
@@ -252,14 +252,19 @@ nav.menu {
         flex-direction: column;
         align-content: space-between;
         flex-wrap: nowrap;
-        max-width:300px;
-        height: 40vh;
+        width: 100%;
         margin:auto;
     }
     .menu > ul > li {
         text-align: center;
+        width:100%;
+        margin:0;
+        margin-top:30px;
+        padding:0;
     }
     .menu > ul > li > a {
+        margin:0;
+        padding:0;
     }
     .menu > ul > li:hover{
         color:gray;
@@ -271,7 +276,12 @@ nav.menu {
         height: 100vh;
     }
     .menu > ul > li > ul {
+        margin-top:10px;
         position:static;
+    }
+    .menu > ul > li > ul > li > a{
+        padding:8px;
+        margin:0;
     }
     .box-imgs > h3 {
         width: 80%;
