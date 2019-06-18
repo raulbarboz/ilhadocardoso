@@ -65,7 +65,7 @@ h2{
 
 /* Navbar */
 .menu-bg{
-    background:#96ceb4;
+    background:#f1f1f1;
     border-bottom:5px solid #588c7e;
 }
 nav.menu {
@@ -75,7 +75,7 @@ nav.menu {
     flex-wrap: wrap;
     margin: 0 auto;
     max-width:960px;
-    font-family: 'Viga', sans-serif;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
 }
 
 .menu > ul{
@@ -93,7 +93,7 @@ nav.menu {
 }
 
 .menu > ul > li > a {
-    color: black;
+    color:#5f5f5f;
     padding:5px;
 }
 
@@ -243,22 +243,26 @@ nav.menu {
         text-align: center;
         width: 150px;
     }
+    .menu-bg {
+        height: 98vh;
+        border-bottom:2vh solid #588c7e;
+    }
     .menu > ul {
-        display:block;
-        margin:0;
-        padding:0;
-        margin-top:10px;
-        background: #e8e8e8;
-        border-top:8px solid #807f7f;
+        display:flex;
+        flex-direction: column;
+        align-content: space-between;
+        margin-top:95px;
+        flex-wrap: nowrap;
+        height: 50vh;
     }
     .menu > ul > li {
-        padding:20px 0;
+        text-align: center;
     }
     .menu > ul > li > a {
-        margin-left:50px;
     }
     .menu > ul > li:hover{
-        border-left:8px solid #7dcdec
+        color:gray;
+        background: none;
     }
     nav.menu{
         display:flow-root;
@@ -266,7 +270,10 @@ nav.menu {
     .menu > ul > li > ul {
         position:static;
     }
-
+    .box-imgs > h3 {
+        width: 80%;
+        font-size:30px;
+    }
   }
 
   @media (max-width: 521px){
