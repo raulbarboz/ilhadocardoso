@@ -218,7 +218,7 @@ nav.menu {
   }
 
   .content-img{
-    padding:10px 0 10px 0;
+    padding:10px 20px 10px 0;
   }
 
   .sidebar{
@@ -298,5 +298,8 @@ nav.menu {
     }
     .grid-content{
         grid-template-columns: 1fr;
+    }
+    .content-img {
+        padding: 10px 0 10px 0;
     }
   }
