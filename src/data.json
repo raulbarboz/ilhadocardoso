@@ -6,19 +6,22 @@
                     "titulo" : "Praia do Marujá ou Praia do Meio",
                     "distancia": "500m",
                     "descricao" : "Praia de fácil acesso por trilha de aprox. 500 m a partir da comunidade, possui longa extensão e é possível desfrutar da natureza em sua plenitude. Ótima para práticas esportivas como corrida, natação em àguas abertas, surfe, futebol de areia, frescobol. Além da vantagem de não haver carros e poluição, perfeita para crianças brincarem na areia.",
-                    "guia" : false
+                    "guia" : false,
+                    "url_img" : "https://picsum.photos/200"
                 },
                 {
                     "titulo" : "Costão do Marujá",
                     "distancia": "8km",
                     "descricao" : "O passeio tem início na Comunidade do Marujá tendo como primeiro percurso a Praia do Marujá. A trilha do costão se inicia em meio às rochas, sendo observado o costão rochoso marinho. O ambiente é propício para observação da vida marinha e da restinga ao longo da praia. Seus pontos altos servem como mirantes das praias do Marujá e da Laje.",
-                    "guia": true
+                    "guia": true,
+                    "url_img" : "https://picsum.photos/200"
                 },
                 {
                     "titulo" : "Comunidade do Cambriú",
                     "distancia": "26km",
                     "descricao" : "Caminhando desde a comunidade do Marujá, realiza-se um percurso que leva ao extremo da Praia da Laje, sendo este um ótimo ponto para contemplação da paisagem marítima. A caminhada termina com uma descida para as praias de Foles, Fole Pequeno e Cambriú.",
-                    "guia": false
+                    "guia": false,
+                    "url_img" : "https://picsum.photos/200"
                 }
             ],
             "cachoeiras": [
@@ -26,29 +29,34 @@
                     "titulo" : "Piscinas da Laje",
                     "distancia": "25km",
                     "descricao" : "Caminhada a partir da comunidade do Marujá até o fim da Praia da Laje onde inicia a trilha, numa área de transição de restinga para a mata de encosta. Na trilha, uma grande variedade da flora e presença de riachos e rios que formam piscinas naturais. Observar antes as condições de tempo.",
-                    "guia" : true
+                    "guia" : true,
+                    "url_img" : "https://picsum.photos/200"
                 },
                 {
                     "titulo" : "Cachoeira Grande",
                     "descricao" : "Passeio de barco com duração de aproximadamente 30 minutos pelo Canal do Ararapira, chegando à trilha de 800 metros que leva à Cachoeira Grande. No caminho há ruínas de uma antiga serraria que funcionou até a década de 50.",
-                    "guia": true
+                    "guia": true,
+                    "url_img" : "https://picsum.photos/200"
                 }
             ],
             "historicas": [
                 {
                     "titulo" : "Igrejinha do Marujá",
                     "descricao" : "Simpática igreja da Comunidade do Marujá atrai por sua simplicidade e demonstra toda a fé da comunidade.",
-                    "guia" : false
+                    "guia" : false,
+                    "url_img" : "https://picsum.photos/200"
                 },
                 {
                     "titulo" : "Barra do Ararapira - ‘a cidade fantasma’",
                     "descricao" : "Um dos primeiros bairros do Brasil colonial, um importante entrepostos comercial que mais tarde se tornaria o cemiterio da região.Local possui uma igreja datada de xxx com varias informações de alta relavância histórica.",
-                    "guia": false
+                    "guia": false,
+                    "url_img" : "https://picsum.photos/200"
                 },
                 {
                     "titulo" : "Sambaquis",
                     "descricao" : "São sítios arqueológicos formados por conchas que segundo historiadores são resíduos da alimentação de uma antiga civilização pré-cambriana.",
-                    "guia": false
+                    "guia": false,
+                    "url_img" : "https://picsum.photos/200"
                 }
             ],
             "pesca_esportiva": [
@@ -56,10 +64,7 @@
                     "titulo" : "Pesca Esportiva",
                     "descricao" : "Fotos, videos e links",
                     "guia" : false,
-                    "material": [
-                        {"url_img": "http://url-to-img"},
-                        {"url_video": "http://url-to-video"}
-                    ]
+                    "url_img" : "https://picsum.photos/200"
                 }
             ],
             "noturnas": [
@@ -67,20 +72,19 @@
                     "titulo" : "Música ao vivo",
                     "descricao" : "A Comunidade do Marujá é também conhecida por noites badaladas com música ao vivo e muita diversão. O forró e a música brasileira ditam o ritmo que completam a natureza do local.  Funciona apenas nos feriados e datas comemorativas.",
                     "guia" : false,
-                    "material": [
-                        {"url_img": "http://url-to-img"},
-                        {"url_video": "http://url-to-video"}
-                    ]
+                    "url_img" : "https://picsum.photos/200"
                 },
                 {
                     "titulo" : "Observação Celeste",
                     "descricao" : "O fato de possuir iluminação pública nem automoveis possibilidade uma visibilidade do céu única e possível em poucos lugares nos dias de hoje. É possível avistar dezenas de estrelas cadentes em uma noite limpa.",
-                    "guia": true
+                    "guia": true,
+                    "url_img" : "https://picsum.photos/200"
                 },
                 {
                     "titulo" : "Spyro Gyro",
                     "descricao" : "É um bichinho bonito e verdinho que dá na água. São plânctons bioluminescentes presentes apenas em locais sem poluição e com pouca luz artificial. Em toda ilha é possível visualizá-los, basta mexer na água ou na areia molhada para ver esse show psicodélico natural.",
-                    "guia": true
+                    "guia": true,
+                    "url_img" : "https://picsum.photos/200"
                 }
             ],
             "campings": [
@@ -151,12 +155,12 @@
                 {
                     "titulo": "Por Cananeia",
                     "descricao": "Cananéia fica a 272 km de São Paulo e a 87 km da Ilha Comprida. Boa parte do trajeto é feito pela Rodovia Régis Bittencourt (BR-116). Passando por Registro, pegue a saída 464 para a SP-226, com indicação para Pariquera Açu, Iguape e Cananéia. Siga pela estrada por 27 km até a entrada da Estrada Prefeito José Herculano de Oliveira Rosa na rotatória e por ela até Cananéia. O acesso para Cananéia é feito por uma ponte, ao norte da ilha, ou por uma balsa, ao sul. Para se chegar a Comunidade do Marujá é preciso adentrar os canais que separam a Ilha do Cardoso do continente. A viagem é sempre muito bonita, repleta de natureza exuberante em flora e fauna, cheia de surpresas como a aparição de botos e revoadas de pássaros.O trajeto possui aproximadamente xx km e pode ser percorrido de três maneiras: de lancha rápida (“voadera”), de escuna ou com a balsa de moradores.As viagens de lancha oferecidas no calçadão da Avenida Beira Mar próxima ao píer (vide localização), comportam xx pessoas e levam xx minutos.As viagens de escuna possuem horário marcado para saída, comportam xx pessoas e levam xx horas. São tomadas no próprio pier.A balsa de moradores só sai nas xx-feiras e xx-feiras às xx horas e regressam às xx horas. Para maiores informações falar com a Dersa.",
-                    "mapa-url": "http://url-map-cananeia"
+                    "mapa-url": "https://picsum.photos/200/300"
                 },
                 {
                     "titulo": "Por Ariri",
                     "descricao": "Na rotatória deve se seguir na SP-226, com indicação para Ariri. Depois de xx chega-se ao bairro de Itapitingui de onde se atravessa todo o Parque Estadual Lagamar para chegar ao bairro do Ariri.Do Ariri toma-se uma lancha particular (colocar número do Gilberto?) que percorre xx km e leva 15 minutos.",
-                    "mapa-url": "http://url-map-ariri"
+                    "mapa-url": "https://picsum.photos/200/300"
                 }
             ]
         }   
