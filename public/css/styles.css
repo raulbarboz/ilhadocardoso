@@ -48,16 +48,34 @@ table {
 	border-spacing: 0;
 }
 
+/* setup */
+h1,h2,h3,h4,h5,h6,a,p{
+    margin:10px 0;
+}
+
+h1{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
 /* Navbar */
+.menu-bg{
+    background:#96ceb4;
+    border-bottom:5px solid #588c7e;
+}
 nav.menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0 auto;
+    max-width:960px;
     font-family: 'Viga', sans-serif;
-    background:#96ceb4;
-    border-bottom:5px solid #588c7e;
 }
 
 .menu > ul{
@@ -177,4 +195,18 @@ nav.menu {
     width: 100vw;
     max-height: 60vh;
     object-fit: cover;
+  }
+
+  /* content */
+  .container{
+      max-width:960px;
+      margin: 0 auto;
+      font-family: Arial, Helvetica, sans-serif;
+      display: grid;
+      grid-template-columns: 5fr 2fr;
+  }
+
+  .content{
+      border-bottom: 1px solid gray;
+      margin: 0 10px;
   }

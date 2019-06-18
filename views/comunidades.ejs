@@ -1,9 +1,18 @@
 <%- include partials/head.ejs %>
 <%- include partials/navbar.ejs %>
 <% if(locals.data) { %>
-<% data && data.forEach((content) => { %>
-    <%- include('partials/content.ejs', {content:content}) %>
-<% }) %>
+    <div class="container">
+        <div class="text">
+            <% data && data.forEach((content) => { %>    
+                <%- include('partials/content.ejs', {content:content}) %>
+            <% }) %>
+        </div>
+        <div class="sidebar">
+            <h2>Propaganda</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste deleniti sapiente quidem officia accusantium, voluptatibus id beatae obcaecati quis veniam esse non? Esse ut earum qui ullam perspiciatis provident perferendis.</p>
+            <a href="#">Click Here</a>
+        </div>
+    </div>
 <% } %>
 </body>
 </html>
