@@ -247,7 +247,7 @@ nav.menu {
   }
 
   /* queries */
-  @media (max-width: 720px){
+  @media (max-width: 720px) and (orientation: portrait){
     .container{
         grid-template-columns: 1fr;
     }
@@ -352,4 +352,14 @@ nav.menu {
     .content-img {
         padding: 10px 0 10px 0;
     }
+  }
+
+  @media (max-height: 361px){
+      .menu-bg{
+          height: none;
+      }
+      nav.menu{
+          height:none;
+      }
+ 
   }
