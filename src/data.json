@@ -1,7 +1,7 @@
 {
     "comunidades" : {
         "maruja" : {
-            "praias": [
+            "naturais": [
                 {
                     "titulo" : "Praia do Marujá ou Praia do Meio",
                     "distancia": "500 m",
@@ -22,9 +22,7 @@
                     "descricao" : "Caminhando desde a comunidade do Marujá, realiza-se um percurso que leva ao extremo da Praia da Laje, sendo este um ótimo ponto para contemplação da paisagem marítima. A caminhada termina com uma descida para as praias de Foles, Fole Pequeno e Cambriú.",
                     "guia": false,
                     "url_img" : "https://picsum.photos/200"
-                }
-            ],
-            "cachoeiras": [
+                },
                 {
                     "titulo" : "Piscinas da Laje",
                     "distancia": "25 km",
@@ -37,6 +35,44 @@
                     "descricao" : "Passeio de barco com duração de aproximadamente 30 minutos pelo Canal do Ararapira, chegando à trilha de 800 metros que leva à Cachoeira Grande. No caminho há ruínas de uma antiga serraria que funcionou até a década de 50.",
                     "distancia": "xx km",
                     "guia": true,
+                    "url_img" : "https://picsum.photos/200"
+                },
+                                {
+                    "titulo" : "Música ao vivo",
+                    "descricao" : "A Comunidade do Marujá é também conhecida por noites badaladas com música ao vivo e muita diversão. O forró e a música brasileira ditam o ritmo que completam a natureza do local.  Funciona apenas nos feriados e datas comemorativas.",
+                    "guia" : false,
+                    "url_img" : "https://picsum.photos/200"
+                },
+                {
+                    "titulo" : "Observação Celeste",
+                    "descricao" : "O fato de possuir iluminação pública nem automoveis possibilidade uma visibilidade do céu única e possível em poucos lugares nos dias de hoje. É possível avistar dezenas de estrelas cadentes em uma noite limpa.",
+                    "guia": true,
+                    "url_img" : "https://picsum.photos/200"
+                },
+                {
+                    "titulo" : "Spyro Gyro",
+                    "descricao" : "É um bichinho bonito e verdinho que dá na água. São plânctons bioluminescentes presentes apenas em locais sem poluição e com pouca luz artificial. Em toda ilha é possível visualizá-los, basta mexer na água ou na areia molhada para ver esse show psicodélico natural.",
+                    "guia": true,
+                    "url_img" : "https://picsum.photos/200"
+                }
+            ],
+             "culturais": [
+                {
+                    "titulo" : "Igrejinha do Marujá",
+                    "descricao" : "Simpática igreja da Comunidade do Marujá atrai por sua simplicidade e demonstra toda a fé da comunidade.",
+                    "guia" : false,
+                    "url_img" : "https://picsum.photos/200"
+                },
+                {
+                    "titulo" : "Barra do Ararapira - ‘A cidade fantasma’",
+                    "descricao" : "Um dos primeiros bairros do Brasil colonial, um importante entrepostos comercial que mais tarde se tornaria o cemiterio da região.Local possui uma igreja datada de xxx com varias informações de alta relavância histórica.",
+                    "guia": false,
+                    "url_img" : "https://picsum.photos/200"
+                },
+                {
+                    "titulo" : "Sambaquis",
+                    "descricao" : "São sítios arqueológicos formados por conchas que segundo historiadores são resíduos da alimentação de uma antiga civilização pré-cambriana.",
+                    "guia": false,
                     "url_img" : "https://picsum.photos/200"
                 }
             ],
@@ -60,31 +96,11 @@
                     "url_img" : "https://picsum.photos/200"
                 }
             ],
-            "pesca_esportiva": [
+            "esportivas": [
                 {
                     "titulo" : "Pesca Esportiva",
                     "descricao" : "Fotos, videos e links",
                     "guia" : false,
-                    "url_img" : "https://picsum.photos/200"
-                }
-            ],
-            "noturnas": [
-                {
-                    "titulo" : "Música ao vivo",
-                    "descricao" : "A Comunidade do Marujá é também conhecida por noites badaladas com música ao vivo e muita diversão. O forró e a música brasileira ditam o ritmo que completam a natureza do local.  Funciona apenas nos feriados e datas comemorativas.",
-                    "guia" : false,
-                    "url_img" : "https://picsum.photos/200"
-                },
-                {
-                    "titulo" : "Observação Celeste",
-                    "descricao" : "O fato de possuir iluminação pública nem automoveis possibilidade uma visibilidade do céu única e possível em poucos lugares nos dias de hoje. É possível avistar dezenas de estrelas cadentes em uma noite limpa.",
-                    "guia": true,
-                    "url_img" : "https://picsum.photos/200"
-                },
-                {
-                    "titulo" : "Spyro Gyro",
-                    "descricao" : "É um bichinho bonito e verdinho que dá na água. São plânctons bioluminescentes presentes apenas em locais sem poluição e com pouca luz artificial. Em toda ilha é possível visualizá-los, basta mexer na água ou na areia molhada para ver esse show psicodélico natural.",
-                    "guia": true,
                     "url_img" : "https://picsum.photos/200"
                 }
             ],
@@ -509,7 +525,7 @@
                     "contato": "(13) 38513486 / (13) 982042921"
                 }
             ],
-            "casas_aluguel": [
+            "casas": [
                 {
                     "titulo": "Casa do Anderson Rodrigues",
                     "descricao": "Descricao da casa",
@@ -613,38 +629,6 @@
                     "contato": "(13) 38521161 / (13) 981251432"
                 }
             ],
-            "cultura": [
-                {
-                    "titulo": "Carnaval",
-                    "descricao": "A maior festa brasileira também acontece na Comunidade do Marujá. Aliando diversão e natureza, o Carnaval do Marujá faz bonito com festas com muito respeito e boa energia. Tradicionalmente se apresentam consagrados artistas do Vale do Ribeira e região.",
-                    "contato": "",
-                    "data": "47 dias antes da Pascóa"
-                },
-                {
-                    "titulo": "Ano Novo",
-                    "descricao": "Esse lindo momento de renovação e esperança fica ainda mais cheio de significados na Comunidade do Marujá.",
-                    "contato": "",
-                    "data": "31 de Dezembro"
-                },
-                {
-                    "titulo": "Festa da Tainha",
-                    "descricao": "Descricao do restaurante",
-                    "contato": "(13) 38521210 / (13) 997213906",
-                    "data": "12/5 19hrs"
-                },
-                {
-                    "titulo": "Banda no Bar do Beto",
-                    "descricao": "Descricao do restaurante",
-                    "contato": "(13) 38521210 / (13) 997213906",
-                    "data": "12/5 19hrs"
-                },
-                {
-                    "titulo": "Banda no Bar do Rodrigo",
-                    "descricao": "Descricao do restaurante",
-                    "contato": "(13) 38521161 / (13) 981251432",
-                    "data": "12/5 19hrs"
-                }
-            ],
             "como_chegar": [
                 {
                     "titulo": "Por Cananeia",
@@ -659,7 +643,7 @@
             ]
         },
          "enseada" : {
-            "praias": [
+            "naturais": [
                 {
                     "titulo" : "Praia da Enseada",
                     "distancia": "500m",
@@ -680,9 +664,7 @@
                     "descricao" : "Caminhando desde a comunidade do Marujá, realiza-se um percurso que leva ao extremo da Praia da Laje, sendo este um ótimo ponto para contemplação da paisagem marítima. A caminhada termina com uma descida para as praias de Foles, Fole Pequeno e Cambriú.",
                     "guia": false,
                     "url_img" : "https://picsum.photos/200"
-                }
-            ],
-            "cachoeiras": [
+                },
                 {
                     "titulo" : "Piscinas da Laje",
                     "distancia": "25km",
@@ -694,6 +676,26 @@
                     "titulo" : "Cachoeira Grande",
                     "descricao" : "Passeio de barco com duração de aproximadamente 30 minutos pelo Canal do Ararapira, chegando à trilha de 800 metros que leva à Cachoeira Grande. No caminho há ruínas de uma antiga serraria que funcionou até a década de 50.",
                     "guia": true,
+                    "url_img" : "https://picsum.photos/200"
+                }
+            ],
+            "culturais": [
+                {
+                    "titulo" : "Igrejinha do Marujá",
+                    "descricao" : "Simpática igreja da Comunidade do Marujá atrai por sua simplicidade e demonstra toda a fé da comunidade.",
+                    "guia" : false,
+                    "url_img" : "https://picsum.photos/200"
+                },
+                {
+                    "titulo" : "Barra do Ararapira - ‘a cidade fantasma’",
+                    "descricao" : "Um dos primeiros bairros do Brasil colonial, um importante entrepostos comercial que mais tarde se tornaria o cemiterio da região.Local possui uma igreja datada de xxx com varias informações de alta relavância histórica.",
+                    "guia": false,
+                    "url_img" : "https://picsum.photos/200"
+                },
+                {
+                    "titulo" : "Sambaquis",
+                    "descricao" : "São sítios arqueológicos formados por conchas que segundo historiadores são resíduos da alimentação de uma antiga civilização pré-cambriana.",
+                    "guia": false,
                     "url_img" : "https://picsum.photos/200"
                 }
             ],
@@ -717,31 +719,11 @@
                     "url_img" : "https://picsum.photos/200"
                 }
             ],
-            "pesca_esportiva": [
+            "esportivas": [
                 {
                     "titulo" : "Pesca Esportiva",
                     "descricao" : "Fotos, videos e links",
                     "guia" : false,
-                    "url_img" : "https://picsum.photos/200"
-                }
-            ],
-            "noturnas": [
-                {
-                    "titulo" : "Música ao vivo",
-                    "descricao" : "A Comunidade do Marujá é também conhecida por noites badaladas com música ao vivo e muita diversão. O forró e a música brasileira ditam o ritmo que completam a natureza do local.  Funciona apenas nos feriados e datas comemorativas.",
-                    "guia" : false,
-                    "url_img" : "https://picsum.photos/200"
-                },
-                {
-                    "titulo" : "Observação Celeste",
-                    "descricao" : "O fato de possuir iluminação pública nem automoveis possibilidade uma visibilidade do céu única e possível em poucos lugares nos dias de hoje. É possível avistar dezenas de estrelas cadentes em uma noite limpa.",
-                    "guia": true,
-                    "url_img" : "https://picsum.photos/200"
-                },
-                {
-                    "titulo" : "Spyro Gyro",
-                    "descricao" : "É um bichinho bonito e verdinho que dá na água. São plânctons bioluminescentes presentes apenas em locais sem poluição e com pouca luz artificial. Em toda ilha é possível visualizá-los, basta mexer na água ou na areia molhada para ver esse show psicodélico natural.",
-                    "guia": true,
                     "url_img" : "https://picsum.photos/200"
                 }
             ],
@@ -793,20 +775,6 @@
                     "titulo": "Restaurante da Valdete",
                     "descricao": "Descricao do restaurante",
                     "contato": "(13) 38521161 / (13) 981251432"
-                }
-            ],
-            "cultura": [
-                {
-                    "titulo": "Artesanato",
-                    "descricao": "Artesanato sustentável",
-                    "contato": "xxxxx",
-                    "data": "12/5 19hrs"
-                },
-                {
-                    "titulo": "Banda no Bar do Rodrigo",
-                    "descricao": "Descricao do restaurante",
-                    "contato": "(13) 38521161 / (13) 981251432",
-                    "data": "12/5 19hrs"
                 }
             ],
             "como_chegar": [
