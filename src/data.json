@@ -47,7 +47,7 @@
                     "url_img" : "https://picsum.photos/200"
                 },
                 {
-                    "titulo" : "Barra do Ararapira - ‘a cidade fantasma’",
+                    "titulo" : "Barra do Ararapira - ‘A cidade fantasma’",
                     "descricao" : "Um dos primeiros bairros do Brasil colonial, um importante entrepostos comercial que mais tarde se tornaria o cemiterio da região.Local possui uma igreja datada de xxx com varias informações de alta relavância histórica.",
                     "guia": false,
                     "url_img" : "https://picsum.photos/200"
@@ -138,6 +138,24 @@
                 }
             ],
             "cultura": [
+                {
+                    "titulo": "Carnaval",
+                    "descricao": "A maior festa brasileira também acontece na Comunidade do Marujá. Aliando diversão e natureza, o Carnaval do Marujá faz bonito com festas com muito respeito e boa energia. Tradicionalmente se apresentam consagrados artistas do Vale do Ribeira e região.",
+                    "contato": "",
+                    "data": "47 dias antes da Pascóa"
+                },
+                {
+                    "titulo": "Ano Novo",
+                    "descricao": "Esse lindo momento de renovação e esperança fica ainda mais cheio de significados na Comunidade do Marujá.",
+                    "contato": "",
+                    "data": "31 de Dezembro"
+                },
+                {
+                    "titulo": "Festa da Tainha",
+                    "descricao": "Descricao do restaurante",
+                    "contato": "(13) 38521210 / (13) 997213906",
+                    "data": "12/5 19hrs"
+                },
                 {
                     "titulo": "Banda no Bar do Beto",
                     "descricao": "Descricao do restaurante",
