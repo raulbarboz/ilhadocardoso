@@ -4,21 +4,21 @@
             "praias": [
                 {
                     "titulo" : "Praia do Marujá ou Praia do Meio",
-                    "distancia": "500m",
+                    "distancia": "500 m",
                     "descricao" : "Praia de fácil acesso por trilha de aprox. 500 m a partir da comunidade, possui longa extensão e é possível desfrutar da natureza em sua plenitude. Ótima para práticas esportivas como corrida, natação em àguas abertas, surfe, futebol de areia, frescobol. Além da vantagem de não haver carros e poluição, perfeita para crianças brincarem na areia.É delimitada ao norte pelo Costão do Marujá e ao sul pelo novo Pontal.",
                     "guia" : false,
                     "url_img" : "https://picsum.photos/200"
                 },
                 {
                     "titulo" : "Costão do Marujá",
-                    "distancia": "8km",
+                    "distancia": "8 km",
                     "descricao" : "O passeio tem início na Comunidade do Marujá tendo como primeiro percurso a Praia do Marujá. A trilha do costão se inicia em meio às rochas, sendo observado o costão rochoso marinho. O ambiente é propício para observação da vida marinha e da restinga ao longo da praia. Seus pontos altos servem como mirantes das praias do Marujá e da Laje.",
                     "guia": true,
                     "url_img" : "https://picsum.photos/200"
                 },
                 {
                     "titulo" : "Comunidade do Cambriú",
-                    "distancia": "26km",
+                    "distancia": "26 km",
                     "descricao" : "Caminhando desde a comunidade do Marujá, realiza-se um percurso que leva ao extremo da Praia da Laje, sendo este um ótimo ponto para contemplação da paisagem marítima. A caminhada termina com uma descida para as praias de Foles, Fole Pequeno e Cambriú.",
                     "guia": false,
                     "url_img" : "https://picsum.photos/200"
@@ -27,7 +27,7 @@
             "cachoeiras": [
                 {
                     "titulo" : "Piscinas da Laje",
-                    "distancia": "25km",
+                    "distancia": "25 km",
                     "descricao" : "Caminhada a partir da comunidade do Marujá até o fim da Praia da Laje onde inicia a trilha, numa área de transição de restinga para a mata de encosta. Na trilha, uma grande variedade da flora e presença de riachos e rios que formam piscinas naturais. Observar antes as condições de tempo.",
                     "guia" : true,
                     "url_img" : "https://picsum.photos/200"
@@ -35,6 +35,7 @@
                 {
                     "titulo" : "Cachoeira Grande",
                     "descricao" : "Passeio de barco com duração de aproximadamente 30 minutos pelo Canal do Ararapira, chegando à trilha de 800 metros que leva à Cachoeira Grande. No caminho há ruínas de uma antiga serraria que funcionou até a década de 50.",
+                    "distancia": "xx km",
                     "guia": true,
                     "url_img" : "https://picsum.photos/200"
                 }
@@ -408,6 +409,11 @@
                     "contato": "(13) 38513486 / (13) 982042921"
                 },
                 {
+                    "titulo": "Pousada do Anordo Xavier",
+                    "descricao": "Descricao da pousada",
+                    "contato": "(13) 38521200 / (13) 981641326"
+                },
+                {
                     "titulo": "Pousada do Amilton Xavier",
                     "descricao": "Descricao da pousada",
                     "contato": "(13) 38521200 / (13) 981641326"
@@ -423,29 +429,29 @@
                     "contato": "(13) 38513486 / (13) 982042921"
                 },
                 {
-                    "titulo": "Pousada do Aldamir",
+                    "titulo": "Pousada Ilha do Cardoso",
+                    "descricao": "Descricao da pousada",
+                    "contato": "Falar com Aldamir no (13) 38513486 ou (13) 982042921"
+                },
+                {
+                    "titulo": "Pousada Recanto do Marujá",
+                    "descricao": "Descricao da pousada",
+                    "contato": "Falar com Beto no (13) 38513486 ou (13) 982042921"
+                },
+                {
+                    "titulo": "Pousada Hotel Marujá",
+                    "descricao": "Descricao da pousada",
+                    "contato": "Falar com Celestino no (13) 38513486 ou (13) 982042921"
+                },
+                {
+                    "titulo": "Pousada do César / Dona Tereza",
                     "descricao": "Descricao da pousada",
                     "contato": "(13) 38513486 / (13) 982042921"
                 },
                 {
-                    "titulo": "Pousada do Beto",
+                    "titulo": "Pousada Rancho do Pescador",
                     "descricao": "Descricao da pousada",
-                    "contato": "(13) 38513486 / (13) 982042921"
-                },
-                {
-                    "titulo": "Pousada do Celestino Trudes",
-                    "descricao": "Descricao da pousada",
-                    "contato": "(13) 38513486 / (13) 982042921"
-                },
-                {
-                    "titulo": "Pousada do César/Dona Tereza",
-                    "descricao": "Descricao da pousada",
-                    "contato": "(13) 38513486 / (13) 982042921"
-                },
-                {
-                    "titulo": "Pousada da Carmem / João",
-                    "descricao": "Descricao da pousada",
-                    "contato": "(13) 38513486 / (13) 982042921"
+                    "contato": "Falar com Carmem ou João no (13) 38513486 ou (13) 982042921"
                 },
                 {
                     "titulo": "Pousada da Débora",
@@ -463,9 +469,9 @@
                     "contato": "(13) 38513486 / (13) 982042921"
                 },
                 {
-                    "titulo": "Pousada do Ismael",
+                    "titulo": "Pousada Abrigo da Ilha",
                     "descricao": "Descricao da pousada",
-                    "contato": "(13) 38513486 / (13) 982042921"
+                    "contato": "Falar com Ismael no (13) 38513486 ou (13) 982042921"
                 },
                 {
                     "titulo": "Pousada do José Maria",
@@ -478,14 +484,14 @@
                     "contato": "(13) 38513486 / (13) 982042921"
                 },
                                 {
-                    "titulo": "Pousada do Pedro Neves",
+                    "titulo": "Pousada Robalão",
                     "descricao": "Descricao da pousada",
-                    "contato": "(13) 38513486 / (13) 982042921"
+                    "contato": "Falar com Pedro Neves no (13) 38513486 ou (13) 982042921"
                 },
                 {
-                    "titulo": "Pousada do Rosildo",
+                    "titulo": "Pousada Ilhas e Mares",
                     "descricao": "Descricao da pousada",
-                    "contato": "(13) 38513486 / (13) 982042921"
+                    "contato": "Falar com Rosildo no (13) 38513486 ou (13) 982042921"
                 },
                 {
                     "titulo": "Pousada do Rodrigo Silveira",
@@ -493,9 +499,9 @@
                     "contato": "(13) 38513486 / (13) 982042921"
                 },
                 {
-                    "titulo": "Pousada do Renato",
+                    "titulo": "Pousada do Sossego",
                     "descricao": "Descricao da pousada",
-                    "contato": "(13) 38513486 / (13) 982042921"
+                    "contato": "Falar com Renato no (13) 38513486 ou (13) 982042921"
                 },
                                 {
                     "titulo": "Pousada do Vlad / Márcia",
@@ -791,9 +797,9 @@
             ],
             "cultura": [
                 {
-                    "titulo": "Banda no Bar do Beto",
-                    "descricao": "Descricao do restaurante",
-                    "contato": "(13) 38521210 / (13) 997213906",
+                    "titulo": "Artesanato",
+                    "descricao": "Artesanato sustentável",
+                    "contato": "xxxxx",
                     "data": "12/5 19hrs"
                 },
                 {
