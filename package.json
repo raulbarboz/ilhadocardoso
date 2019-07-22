@@ -5,7 +5,7 @@
   "main": "src/index",
   "scripts": {
     "start": "node src/index.js",
-    "dev" : "nodemon"
+    "dev": "nodemon"
   },
   "keywords": [
     "ilhadocardoso",

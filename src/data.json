@@ -56,7 +56,7 @@
                     "descricao" : "A Comunidade do Marujá é também conhecida por noites badaladas com música ao vivo e muita diversão. O forró e a música brasileira ditam o ritmo que completam a natureza do local.  Funciona apenas nos feriados e datas comemorativas.",
                     "guia" : false,
                     "url_img" : "https://picsum.photos/200"
-                },
+                }
             ],
             "historicas": [
                 {
@@ -398,7 +398,7 @@
                     "descricao": "pedir descrição para o próprio dono?",
                     "capacidade": "YY barracas",
                     "contato": "(13) 3852-1161 / (13) 982042921"
-                },
+                }
             ],
             "pousadas": [
                 {
@@ -577,8 +577,8 @@
                     "titulo": "Quartos do Marcelo",
                     "descricao": "Descricao da casa",
                     "contato": "(13) 38521161 / (13) 981251432"
-                }
-                                {
+                },
+                {
                     "titulo": "Casa do Marcos",
                     "descricao": "Descricao da casa",
                     "contato": "(13) 38521161 / (13) 981251432"
@@ -646,7 +646,7 @@
                     "descricao" : "Caminhando desde a comunidade do Marujá, realiza-se um percurso que leva ao extremo da Praia da Laje, sendo este um ótimo ponto para contemplação da paisagem marítima. A caminhada termina com uma descida para as praias de Foles, Fole Pequeno e Cambriú.",
                     "guia": false,
                     "url_img" : "https://picsum.photos/200"
-                },
+                }
             ],
             "culturais": [
                 {
