@@ -71,6 +71,10 @@ h2{
     background:#5CDB95;
     border-bottom:5px solid #379683;
 }
+.menu-bg-footer{
+    background:#5CDB95;
+    border-bottom:5px solid #379683;
+}
 nav.menu {
     display: flex;
     align-items: center;
@@ -250,13 +254,26 @@ nav.menu {
 .footer-home{
     margin: 0 auto;
     max-width:960px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
-.footer-home > ul {
+.fale-conosco > span, 
+.ajude > span{
+    grid-column: 1;
+    grid-row:2;
+    align-self:end;
+}
+
+.footer-home > ul, 
+.fale-conosco, 
+.ajude {
+    text-transform: uppercase;
     font-family: arial;
     font-size:13px;
     padding:20px;
-    display: inline-block;
+    display:grid;
+    grid-row:1/2;
 }
 
   /* queries */
@@ -337,7 +354,6 @@ nav.menu {
         -webkit-transform: rotate(-45deg);
                 transform: rotate(-45deg);
       }
-      
       .pin-solid.icon:before {
         content: '';
         position: absolute;
@@ -364,6 +380,10 @@ nav.menu {
     }
     .content-img {
         padding: 10px 0 10px 0;
+    }
+    .footer-home{
+        grid-template-columns: 1fr;
+        display:block;
     }
   }
 
