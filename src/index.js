@@ -4,7 +4,7 @@ const ejs = require('ejs');
 const fs = require('fs');
 
 const port = process.env.PORT || 3000;
-const hostname = process.env.HOST || 'localhost';
+//const hostname = process.env.HOST || 'localhost';
 
 app.use(express.static('public'))
 app.set('view engine', 'ejs');
@@ -28,10 +28,19 @@ app.get('/:comunity', (req, res) => {
 })
 
 app.get('/' + ':comunity' + '/' + ':name', (req, res) => {
+    var { search } =  req.query;
+    
     var {name, comunity} = req.params;
     let newData = null
     try{
         newData = data["comunidades"][`${comunity}`][`${name}`]
+       
+        if(search){
+            newData = newData.filter((d) => {
+               return d.titulo.toLowerCase().includes(search)
+            })
+        }
+        
     }catch(error){
         res.render('error')
     }

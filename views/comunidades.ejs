@@ -1,6 +1,10 @@
 <%- include partials/head.ejs %>
 <%- include partials/navbar.ejs %>
 <% if(locals.data) { %>
+    <div class="search-area">
+        <input id="searchInput" type="text"></input>
+        <button>Search</button>
+    </div>
     <div class="container">
         <div class="text">
             <% data && data.forEach((content) => { %>    
@@ -15,5 +19,10 @@
     </div>
 <% } %>
 <%- include partials/footer_home.ejs %>
+<script>
+    document.getElementById("searchInput").addEventListener('input', (e) => {
+        console.log(e.target.value)
+    })
+</script>
 </body>
 </html>
