@@ -44,7 +44,7 @@ app.get('/' + ':comunity' + '/' + ':name', (req, res) => {
     }catch(error){
         res.render('error')
     }
-    res.render(`comunidades`, {url : `/${comunity}`, data: newData})
+    res.render(`comunidades`, {url : `/${comunity}`, data: newData, search : search})
 });
 
 
