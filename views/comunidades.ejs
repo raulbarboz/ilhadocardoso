@@ -17,28 +17,28 @@
             <a href="#">Click Here</a>
         </div>
     </div>
+    <script>
+            var timeout = null;
+            document.getElementById("searchInput").addEventListener('input', (e) => {
+        
+                var pathlocation;
+                if(location.pathname.slice(-1) === "/"){
+                    pathlocation = location.pathname.substring(0, location.pathname.lastIndexOf('/'))
+                }else{
+                    pathlocation = location.pathname;
+                }
+                let newPath = `${pathlocation}/?search=${e.target.value}`  
+
+        
+                
+                
+                clearTimeout(timeout);
+                timeout = setTimeout(function () {
+                    window.location.href = `${newPath}`
+                }, 2000);
+            })
+        </script>
 <% } %>
 <%- include partials/footer_home.ejs %>
-<script>
-    var timeout = null;
-    document.getElementById("searchInput").addEventListener('input', (e) => {
-
-        var pathlocation;
-        if(location.pathname.slice(-1) === "/"){
-            pathlocation = location.pathname.substring(0, location.pathname.lastIndexOf('/'))
-        }else{
-            pathlocation = location.pathname;
-        }
-        let newPath = `${pathlocation}/?search=${e.target.value}`  
-        console.log(newPath)
-
-        
-        
-        clearTimeout(timeout);
-        timeout = setTimeout(function () {
-            window.location.href = `${newPath}`
-        }, 2000);
-    })
-</script>
 </body>
 </html>
