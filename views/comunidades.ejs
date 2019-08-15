@@ -23,16 +23,20 @@
     var timeout = null;
     document.getElementById("searchInput").addEventListener('input', (e) => {
 
-        const pathArray = e.target.baseURI.split('/');
-
-        const newPath = pathArray[pathArray.length - 2] + '/' + pathArray[pathArray.length - 1] + '/' + `?search=${e.target.value}`
-        console.log(pathArray)
+        var pathlocation;
+        if(location.pathname.slice(-1) === "/"){
+            pathlocation = location.pathname.substring(0, location.pathname.lastIndexOf('/'))
+        }else{
+            pathlocation = location.pathname;
+        }
+        let newPath = `${pathlocation}/?search=${e.target.value}`  
+        console.log(newPath)
 
         
         
         clearTimeout(timeout);
         timeout = setTimeout(function () {
-            window.location.href = `/${newPath}`
+            window.location.href = `${newPath}`
         }, 2000);
     })
 </script>
