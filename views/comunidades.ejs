@@ -25,7 +25,8 @@
 
         const pathArray = e.target.baseURI.split('/');
 
-        const newPath = pathArray[pathArray.length - 3] + '/' + pathArray[pathArray.length - 2] + '/' + `?search=${e.target.value}`
+        const newPath = pathArray[pathArray.length - 2] + '/' + pathArray[pathArray.length - 1] + '/' + `?search=${e.target.value}`
+        console.log(pathArray)
 
         
         
