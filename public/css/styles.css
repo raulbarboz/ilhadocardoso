@@ -66,6 +66,14 @@ h2{
     font-weight: bold;
 }
 
+.text-home{
+    margin:10px;
+}
+
+.img-home{
+    margin:10px;
+}
+
 /* Navbar */
 .menu-bg{
     background:#5CDB95;
@@ -224,10 +232,22 @@ nav.menu {
       margin: 0 auto;
       font-family: 'Encode Sans Semi Condensed', sans-serif;
       text-align: justify;
-      display: grid;
-      grid-template-columns: 5fr 2fr;
   }
 
+  .grid-container{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+  }
+
+  .grid-home{
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+  }
+
+  .grid-home-inverse{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+  }
   .grid-content{
     display: grid;
     grid-template-columns: 1fr 8fr;
