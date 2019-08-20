@@ -224,6 +224,7 @@ nav.menu {
     width: 100vw;
     max-height: 60vh;
     object-fit: cover;
+    border-bottom:5px solid #379683;
   }
 
   /* content */
