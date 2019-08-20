@@ -1,4 +1,12 @@
 {
+    "home": {
+        "images": [
+            {
+                "id": "img_home",
+                "url": "https://firebasestorage.googleapis.com/v0/b/ilha-do-cardoso.appspot.com/o/home%2Filha_do_cardoso.png?alt=media&token=18bfc706-06f2-4ef5-881e-692bf4ac54db"
+            }
+        ]
+    },
     "comunidades" : {
         "maruja" : {
             "naturais": [

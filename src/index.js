@@ -19,7 +19,14 @@ app.use((req, res, next) => {
 })
 
 app.get('/', (req, res) => {
-    res.render('index')
+    let newData = null
+    try{
+        newData = data["home"]["images"]
+    }catch(error){
+        res.render('error')
+    }
+
+    res.render('index', {data: newData})
 })
 
 app.get('/:comunity', (req, res) => {
