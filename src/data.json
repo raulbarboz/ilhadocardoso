@@ -3,7 +3,11 @@
         "images": [
             {
                 "id": "img_home",
-                "url": "https://firebasestorage.googleapis.com/v0/b/ilha-do-cardoso.appspot.com/o/home%2Filha_do_cardoso.png?alt=media&token=18bfc706-06f2-4ef5-881e-692bf4ac54db"
+                "url": "https://firebasestorage.googleapis.com/v0/b/ilha-do-cardoso.appspot.com/o/home%2Filhadocardoso_clear.png?alt=media&token=7947d5e6-9a7b-4f59-ac54-389f56affd07"
+            },
+            {
+                "id": "img_home_2",
+                "url": "https://firebasestorage.googleapis.com/v0/b/ilha-do-cardoso.appspot.com/o/home%2Filhadocardoso.png?alt=media&token=266143b1-27f4-4189-b810-03c4462b5e97"
             }
         ]
     },
