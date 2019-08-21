@@ -1,6 +1,7 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
+   https://colorschemedesigner.com/csd-3.5/#3.40XvSvvw0w0
 */
 
 html, body, div, span, applet, object, iframe,
@@ -30,7 +31,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    background:#fff;
 }
 ol, ul {
 	list-style: none;
@@ -67,7 +69,22 @@ h2{
 }
 
 .text-home{
-    margin:10px;
+    margin:0px 10px 10px 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.33333;
+    color:#444
+}
+
+.text-home > h1{
+    color:#FB5201;
+}
+
+.text-home > strong {
+    font-weight: bold;   
+    color:#FB5201
 }
 
 .img-home{
@@ -76,11 +93,11 @@ h2{
 
 /* Navbar */
 .menu-bg{
-    background:#5CDB95;
+    background:#01A86D;
     border-bottom:5px solid #379683;
 }
 .menu-bg-footer{
-    background:#5CDB95;
+    background:#01A86D;
     border-bottom:5px solid #379683;
 }
 nav.menu {
@@ -108,7 +125,7 @@ nav.menu {
 }
 
 .menu > ul > li > a {
-    color:#05386B;
+    color:#04386A;
     padding:5px;
 }
 
@@ -243,11 +260,13 @@ nav.menu {
   .grid-home{
     display: grid;
     grid-template-columns: 6fr 1fr;
+    margin-top:35px;
   }
 
   .grid-home-inverse{
     display: grid;
     grid-template-columns: 1fr 6fr;
+    margin-top:35px;
   }
   .grid-content{
     display: grid;
