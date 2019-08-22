@@ -15,7 +15,7 @@
         "maruja" : {
             "naturais": [
                 {
-                    "titulo" : "Praia do Marujá ou Praia do Meio ok",
+                    "titulo" : "Praia do Marujá ou Praia do Meio",
                     "distancia": "500 m",
                     "descricao" : "Praia de fácil acesso por trilha de aprox. 500 m a partir da comunidade, possui longa extensão e é possível desfrutar da natureza em sua plenitude. Ótima para práticas esportivas como corrida, natação em àguas abertas, surfe, futebol de areia, frescobol. Além da vantagem de não haver carros e poluição, perfeita para crianças brincarem na areia.É delimitada ao norte pelo Costão do Marujá e ao sul pelo novo Pontal.",
                     "guia" : false,
@@ -31,7 +31,7 @@
                 {
                     "titulo" : "Comunidade do Cambriú",
                     "distancia": "26 km",
-                    "descricao" : "Caminhando desde a comunidade do Marujá, realiza-se um percurso que leva ao extremo da Praia da Laje, sendo este um ótimo ponto para contemplação da paisagem marítima. A caminhada termina com uma descida para as praias de Foles, Fole Pequeno e Cambriú.",
+                    "descricao" : "Caminhando desde a comunidade do Marujá, realiza-se um percurso que leva ao extremo da Praia da Laje, sendo este um ótimo ponto para contemplação da paisagem marítima. A caminhada termina com uma descida para as praias de Foles, Fole Pequeno e Cambriú. A pequena comunidade é banhada pelo Rio Cambriú que desagua na sossegada praia.",
                     "guia": false,
                     "url_img" : "https://picsum.photos/200"
                 },
@@ -51,7 +51,7 @@
                 },
                 {
                     "titulo" : "Observação Celeste",
-                    "descricao" : "O fato de possuir iluminação pública nem automoveis possibilidade uma visibilidade do céu única e possível em poucos lugares nos dias de hoje. É possível avistar dezenas de estrelas cadentes em uma noite limpa.",
+                    "descricao" : "O fato de não haver iluminação pública nem automoveis possibilita uma visibilidade do céu impar, vista em poucos lugares hoje em dia. É possível avistar dezenas de estrelas cadentes em uma noite limpa.",
                     "guia": true,
                     "url_img" : "https://picsum.photos/200"
                 },
@@ -93,7 +93,13 @@
             "esportivas": [
                 {
                     "titulo" : "Pesca Esportiva",
-                    "descricao" : "Fotos, videos e links",
+                    "descricao" : "A região é famosa pela pesca esportiva. As águas abrigadas e a riqueza de alimentos fornecem um ambiente propicio para a reprodução e vivência de diversas espécies de peixes, entre os quais o robalos, sororocas e anchovas.",
+                    "guia" : false,
+                    "url_img" : "https://picsum.photos/200"
+                },
+                {
+                    "titulo" : "Canoa Caiçara",
+                    "descricao" : "O canal é o palco da tradicional competição de canoa.",
                     "guia" : false,
                     "url_img" : "https://picsum.photos/200"
                 }
@@ -101,7 +107,7 @@
             "campings": [
                 {
                     "titulo": "Camping do Aroldo Neves",
-                    "descricao": "pedir descrição para o próprio dono?",
+                    "descricao": "Pedir descrição para o próprio dono?",
                     "capacidade": "YY barracas",
                     "contato": "(13) 3852-1161 / (13) 982042921"
                 },
@@ -647,46 +653,28 @@
                 },
                 {
                     "titulo" : "Costão do Marujá",
-                    "distancia": "8km",
+                    "distancia": "8 km",
                     "descricao" : "O passeio tem início na Comunidade do Marujá tendo como primeiro percurso a Praia do Marujá. A trilha do costão se inicia em meio às rochas, sendo observado o costão rochoso marinho. O ambiente é propício para observação da vida marinha e da restinga ao longo da praia. Seus pontos altos servem como mirantes das praias do Marujá e da Laje.",
-                    "guia": true,
+                    "guia": false,
                     "url_img" : "https://picsum.photos/200"
                 },
                 {
                     "titulo" : "Pontal do Leste",
-                    "distancia": "26km",
-                    "descricao" : "Caminhando desde a comunidade do Marujá, realiza-se um percurso que leva ao extremo da Praia da Laje, sendo este um ótimo ponto para contemplação da paisagem marítima. A caminhada termina com uma descida para as praias de Foles, Fole Pequeno e Cambriú.",
+                    "distancia": "26 km",
+                    "descricao" : "Caminhando desde a comunidade da Enseada, passando pela comunidade do Marujá, realiza-se um percurso que leva ao extremo da Praia da Laje, sendo este um ótimo ponto para contemplação da paisagem marítima. A caminhada termina com uma descida para as praias de Foles, Fole Pequeno e Cambriú.",
                     "guia": false,
                     "url_img" : "https://picsum.photos/200"
                 }
             ],
             "culturais": [
                 {
-                    "titulo" : "Igrejinha do Marujá",
-                    "descricao" : "Simpática igreja da Comunidade do Marujá atrai por sua simplicidade e demonstra toda a fé da comunidade.",
+                    "titulo" : "Venda de artesanatos",
+                    "descricao" : "Lindos artesanatos tradicionais feitos com materiais aproveitados como restos de rede de pesca.",
                     "guia" : false,
-                    "url_img" : "https://picsum.photos/200"
-                },
-                {
-                    "titulo" : "Barra do Ararapira - ‘a cidade fantasma’",
-                    "descricao" : "Um dos primeiros bairros do Brasil colonial, um importante entrepostos comercial que mais tarde se tornaria o cemiterio da região.Local possui uma igreja datada de xxx com varias informações de alta relavância histórica.",
-                    "guia": false,
-                    "url_img" : "https://picsum.photos/200"
-                },
-                {
-                    "titulo" : "Sambaquis",
-                    "descricao" : "São sítios arqueológicos formados por conchas que segundo historiadores são resíduos da alimentação de uma antiga civilização pré-cambriana.",
-                    "guia": false,
                     "url_img" : "https://picsum.photos/200"
                 }
             ],
             "historicas": [
-                {
-                    "titulo" : "Igrejinha do Marujá",
-                    "descricao" : "Simpática igreja da Comunidade do Marujá atrai por sua simplicidade e demonstra toda a fé da comunidade.",
-                    "guia" : false,
-                    "url_img" : "https://picsum.photos/200"
-                },
                 {
                     "titulo" : "Barra do Ararapira - ‘a cidade fantasma’",
                     "descricao" : "Um dos primeiros bairros do Brasil colonial, um importante entrepostos comercial que mais tarde se tornaria o cemiterio da região.Local possui uma igreja datada de xxx com varias informações de alta relavância histórica.",
@@ -704,6 +692,12 @@
                 {
                     "titulo" : "Pesca Esportiva",
                     "descricao" : "Fotos, videos e links",
+                    "guia" : false,
+                    "url_img" : "https://picsum.photos/200"
+                },
+                {
+                    "titulo" : "Canoa Caiçara",
+                    "descricao" : "O canal é o palco da tradicional competição de canoa caiçara.",
                     "guia" : false,
                     "url_img" : "https://picsum.photos/200"
                 }
