@@ -1,9 +1,14 @@
 <%- include partials/head.ejs %>
 <%- include partials/navbar.ejs %>
 <% if(locals.data) { %>
-    <div class="search-area">
-        <input id="searchInput" type="text" value="<%= search %>"></input>
-        <button>Search</button>
+    <div class="container grid-container">
+        <div>
+
+        </div>
+        <div class="search-area">
+            <input id="searchInput" type="text" value="<%= search %>"></input>
+            <button>Buscar</button>
+        </div>
     </div>
     <div class="container grid-container">
         <div class="text">

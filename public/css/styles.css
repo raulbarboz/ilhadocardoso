@@ -294,6 +294,12 @@ nav.menu {
       background:#96ceb4;
       padding:5px;
   }
+.search-area{
+    margin:5px 10px;
+}
+.search-area input{
+    width:75%;
+}
 
 .footer-home{
     margin: 0 auto;
